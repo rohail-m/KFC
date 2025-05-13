@@ -1,0 +1,379 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  font-optical-sizing: auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.left,
+.right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.option {
+  font-size: larger;
+}
+.delivery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px 25px;
+  margin: 0;
+  background-color: #1c1816;
+}
+
+.pickup {
+  background-color: #1c1816;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+
+.bucket {
+  position: relative;
+}
+
+.zero {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.btn-login {
+  background-color: #ea002a;
+  font-weight: bolder;
+  border: none;
+  padding: 10px 35px;
+  color: white;
+  font-size: larger;
+  border-radius: 10px;
+}
+
+.hero {
+  background-image: url("https://www.kfcpakistan.com/images/53177670-218c-11f0-b2e7-07aa059f4924-1copy_desktop_image-2025-04-25041822.jpg");
+  height: 80vh;
+}
+
+.reorder-btn {
+  width: 50%;
+  background-color: #ea002a;
+  color: white;
+  border: none;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 2% auto;
+  display: block;
+}
+
+.explore-menu {
+  width: 80%;
+  margin: auto;
+}
+
+.menu {
+  height: 200px;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+  padding: 1rem;
+}
+
+.everydayvalue,
+.alacarte,
+.promotion,
+.boxes,
+.sharing {
+  background-color: #1c1816;
+  height: 180px;
+  width: 180px;
+  border-radius: 70px 70px 5px 70px;
+  transition: transform 0.4s ease;
+}
+
+.everydayvalue:hover,
+.alacarte:hover,
+.promotion:hover,
+.boxes:hover,
+.sharing:hover {
+  transform: translateY(-10px);
+}
+
+.burger1,
+.burger2,
+.burger3,
+.burger4,
+.burger5 {
+  text-align: center;
+}
+
+.burger1text,
+.burger2text,
+.burger3text,
+.burger4text,
+.burger5text {
+  text-align: center;
+}
+
+.menu hr {
+  width: 30%;
+  margin: 5px auto;
+  height: 5px;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+}
+
+.dot {
+  height: 20px;
+  background-color: black;
+  margin: auto 0 auto 85%;
+  width: 20px;
+  clip-path: circle();
+}
+
+.best-sellers-container {
+  width: 80%;
+  margin: auto;
+}
+
+.best-seller-heading h2 {
+  text-transform: uppercase;
+}
+
+.best-sellers-deals {
+  height: 300px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.best-sellers-card1,
+.best-sellers-card2,
+.best-sellers-card3,
+.best-sellers-card4 {
+  background-color: #1c1816;
+  width: 20%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.verticle-bars {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.first,
+.second,
+.third {
+  background-color: #ea002a;
+  border: none;
+  height: 25px;
+  width: 7%;
+}
+
+.best-sellers-deals h4 {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.price {
+  border: 1px solid red;
+  background-color: #ea002a;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+  text-align: right;
+  width: 30%;
+  margin-left: auto;
+}
+
+.burger-picture1 {
+  height: 200px;
+  text-align: center;
+  background-image: url("https://www.kfcpakistan.com/images/29700d60-f1a2-11ef-9e56-b384176afb2a-Krunchburger_variant_0-2025-02-23045345.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.burger-picture2 {
+  height: 200px;
+  text-align: center;
+  background-image: url("https://www.kfcpakistan.com/images/63fb28b0-9627-11ef-b835-bd990eec9c91-Krunch-combocopy-2024-10-29185539.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.burger-picture3 {
+  height: 200px;
+  text-align: center;
+  background-image: url("https://www.kfcpakistan.com/images/43a98620-ffaa-11ed-b6b3-6970cc1cd666-chicken-n-chips_variant_0-2023-05-31115706.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.burger-picture4 {
+  height: 200px;
+  text-align: center;
+  background-image: url("https://www.kfcpakistan.com/images/38718ee0-bc17-11ee-97ca-ad9c0958c4fc-Plain-wings-min_variant_0-2024-01-26065041.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-deals-heading h2 {
+  margin-left: -6%;
+}
+
+.top-deals-container {
+  width: 80%;
+  margin: auto;
+}
+
+.top-deals-cards {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+
+.top-deals-card1,
+.top-deals-card2,
+.top-deals-card3,
+.top-deals-card4 {
+  width: 30%;
+  background-color: #1c1816;
+}
+
+.verticle-lines {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.firsts,
+.seconds,
+.thirds {
+  width: 8%;
+  height: 30px;
+  background-color: #ea002a;
+  border: none;
+}
+
+.heart {
+  text-align: end;
+  color: #ea002a;
+}
+
+.top-deal-name {
+  font-weight: bolder;
+  text-transform: capitalize;
+  margin-bottom: 2%;
+}
+
+.prices {
+  padding: 10px 0;
+}
+
+.bt {
+  border: none;
+  background-color: #ea002a;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  transition: all 1s ease;
+  text-transform: uppercase;
+  margin-bottom: -5%;
+}
+
+.bt:hover {
+  background-color: white;
+  color: #ea002a;
+  transform: translateY(-2px);
+}
+
+.top-deals-heading {
+  margin-left: 6%;
+  margin-bottom: 1%;
+  margin-top: 3%;
+}
+
+.top-deals-image1 {
+  transition: all 0.6s ease;
+}
+
+.top-deals-image1:hover {
+  transform: translateY(-5px);
+}
+
+/* images cotainer starts here */
+
+.images-container {
+  padding: 0;
+  width: 80%;
+  margin: 5% auto;
+}
+.top-container,
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.image4 {
+  background-color: #1c1816;
+  width: 100%;
+  text-align: center;
+  height: 320px;
+}
+
+.hello3,
+.hello2,
+.hello1,
+.image4 {
+  border-radius: 10px;
+}
+
+.exp-btn {
+  border: none;
+  background-color: #ea002a;
+  color: white;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.paragrah {
+  margin: 2% 0;
+}
