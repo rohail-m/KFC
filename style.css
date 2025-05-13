@@ -377,3 +377,47 @@ body {
 .paragrah {
   margin: 2% 0;
 }
+
+/* footer starts from here */
+
+.top-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.right {
+  font-size: 1.5rem;
+  color: white;
+  gap: 1rem;
+}
+
+.footer {
+  background-color: #1c1816;
+}
+
+.middle-footer {
+  display: flex;
+  justify-content: space-around;
+  text-transform: capitalize;
+}
+
+li {
+  margin: 1rem;
+  list-style-type: none;
+}
+
+.bottom-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 13rem;
+  text-transform: capitalize;
+}
+
+.red {
+  color: #ea002a;
+  font-size: large;
+  font-weight: bolder;
+}
